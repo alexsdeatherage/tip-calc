@@ -1,24 +1,27 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+function calculateTip(bill: number, tipPercent: number): number {
+    let tipAmount: number
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+    if (bill > 0 && tipPercent > 0) {
+        tipAmount = bill * tipPercent / 100
+        return tipAmount
+    } else {
+        throw new Error('Invalid Input')
+    }
+}
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+const billInput = document.getElementById('bill') as HTMLInputElement;
+const tipInput = document.getElementById('tip') as HTMLInputElement;
+const calcButton = document.getElementById('calc') as HTMLButtonElement;
+const resultDisplay = document.getElementById('result') as HTMLParagraphElement;
+
+calcButton.addEventListener('click', () => {
+    const bill = parseFloat(billInput.value);
+    const tipPercent = parseFloat(tipInput.value);
+
+    if (bill > 0 && tipPercent > 0) {
+        const tip = calculateTip(bill, tipPercent)
+        resultDisplay.textContent = `Tip Amount: $${tip.toFixed(2)}`;
+    } else {
+        resultDisplay.textContent = `Please enter valid values for bill and tip percentage`
+    }
+});
