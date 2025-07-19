@@ -37,7 +37,7 @@
 <h3 align="center">Tip Calc</h3>
 
   <p align="center">
-    project_description
+    This is a simple web-based tip calculator that calculates how much a tip for a service should be split based on the tip percentage, and the number of people the total cost will be split over.
     <br />
     <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
