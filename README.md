@@ -78,6 +78,8 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+This is a tip calculator that I made to test out a few different technologies that I haven't used before, like Vite, TailwindCSS, DaisyUI, the agent mode in Github Copilot, and pnpm. The app itself is a static website that's been deployed on Netlify. Users can input an amount of money spend on a service, and set either a custom tip percentage, or click on a button for a pre-determinted percentage amount. You can also add in the amount of people you wish to split the tip over. After clicking calculate, it will tell you how each person will need to pay for the tip.
 <!-- 
 Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo-name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license` -->
 
