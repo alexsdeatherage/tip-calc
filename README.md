@@ -43,7 +43,6 @@
     <br /> -->
     <br />
     <a href="https://tip-service-calculator.netlify.app/">View Demo</a>
-    &middot;
     <!-- <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
     <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a> -->
