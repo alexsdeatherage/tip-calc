@@ -38,15 +38,15 @@
 
   <p align="center">
     This is a simple web-based tip calculator that calculates how much a tip for a service should be split based on the tip percentage, and the number of people the total cost will be split over.
-    <br />
+    <!-- <br />
     <a href="https://github.com/alexsdeatherage/tip-calc"><strong>Explore the docs »</strong></a>
+    <br /> -->
     <br />
-    <br />
-    <a href="https://github.com/alexsdeatherage/tip-calc">View Demo</a>
+    <a href="https://tip-service-calculator.netlify.app/">View Demo</a>
     &middot;
-    <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <!-- <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
-    <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
+    <a href="https://github.com/alexsdeatherage/tip-calc/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a> -->
   </p>
 </div>
 
@@ -77,7 +77,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![Tip Calculator Home](public/images/Tip-Calc-Home.png)
 
 This is a tip calculator that I made to test out a few different technologies that I haven't used before, like Vite, TailwindCSS, DaisyUI, the agent mode in Github Copilot, and pnpm. The app itself is a static website that's been deployed on Netlify. Users can input an amount of money spend on a service, and set either a custom tip percentage, or click on a button for a pre-determinted percentage amount. You can also add in the amount of people you wish to split the tip over. After clicking calculate, it will tell you how each person will need to pay for the tip.
 <!-- 
