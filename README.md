@@ -95,11 +95,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* pnpm
-  ```sh
-  npm install -g pnpm
-  ```
+The only prerequisite for hosting this app on your own is that you should have pnpm, which for many reasons is a better version of npm. https://pnpm.io/. 
 
 ### Installation
 
